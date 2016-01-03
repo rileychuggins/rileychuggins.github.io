@@ -25,7 +25,7 @@ if(isset($_POST)) {
 	// $transport = Swift_MailTransport::newInstance();
   // Swift_SmtpTransport::newInstance('smtp.gmail.com', 587, 'tls' )
 	//  ->setUsername('rileychuggins@gmail.com')
-	//  ->setPassword('@uGusT9T33n')
+	//  ->setPassword('password')
 	//  ;
 
 	$transport = Swift_MailTransport::newInstance();
@@ -49,8 +49,8 @@ if(isset($_POST)) {
 
 	// You can change "A message from Pivot Template Form" to your own subject if you want.
 	$message = Swift_Message::newInstance('An RSVP from your wedding website')
-	  ->setFrom(array('rileychuggins@gmail.com' => 'RSVP'))
-	  ->setTo(array('rileychuggins@gmail.com' => 'Riley Huggins'))->setBody($messageText);
+	  ->setFrom(array('spicyhugswedding@gmail.com' => 'RSVP'))
+	  ->setTo(array('spicyhugswedding@gmail.com' => 'Riley'))->setBody($messageText);
 //                           ^                    ^
 //       Your email address_/          Your name_/
 
