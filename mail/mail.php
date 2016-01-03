@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST)) {
+if(isset($_GET) {
 	// Require the Swift Mailer library
 	require_once 'lib/swift_required.php';
 
@@ -36,7 +36,7 @@ if(isset($_POST)) {
 
 	// Creating the message text using fields sent through POST
 
-	foreach ($_POST as $key => $value)
+	foreach ($_GET as $key => $value)
 	{
 		// Sets of checkboxes will be shown as comma-separated values as they are passed in as an array.
 		if(is_array($value)){
