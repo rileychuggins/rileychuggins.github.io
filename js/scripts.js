@@ -213,7 +213,7 @@ $(document).ready(function() {
                 $(thisForm).find('input[type="submit"]').hide();
 
                 jQuery.ajax({
-                    type: "POST",
+                    type: "GET",
                     url: "mail/mail.php",
                     data: thisForm.serialize(),
                     success: function(response) {
