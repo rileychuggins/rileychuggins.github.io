@@ -123,22 +123,22 @@ $(document).ready(function() {
 
     // Radio box controls
 
-    $('.radio-holder').click(function() {
-        $(this).siblings().find('input').prop('checked', false);
-        $(this).find('input').prop('checked', true);
-        $(this).closest('.radio-group').find('.radio-holder').removeClass('checked');
-        $(this).addClass('checked');
-    });
+//    $('.radio-holder').click(function() {
+//        $(this).siblings().find('input').prop('checked', false);
+//        $(this).find('input').prop('checked', true);
+//        $(this).closest('.radio-group').find('.radio-holder').removeClass('checked');
+//        $(this).addClass('checked');
+//    });
 
-    $('form input[type="radio"]').each(function() {
-        var valueText = $(this).closest('.radio-holder').find('span').text();
-        $(this).attr('value', convertToSlug(valueText));
-    });
+//    $('form input[type="radio"]').each(function() {
+//        var valueText = $(this).closest('.radio-holder').find('span').text();
+//        $(this).attr('value', convertToSlug(valueText));
+//    });
 
-    $('form input[type="text"]').each(function() {
-        var attrText = $(this).attr('placeholder');
-        $(this).attr('name', convertToSlug(attrText));
-    });
+//    $('form input[type="text"]').each(function() {
+//        var attrText = $(this).attr('placeholder');
+//        $(this).attr('name', convertToSlug(attrText));
+//    });
 
     // Instagram Feed
 
@@ -327,12 +327,12 @@ $(window).load(function() {
 
 });
 
-function convertToSlug(text) {
-    return text
-        .toLowerCase()
-        .replace(/[^\w ]+/g, '')
-        .replace(/ +/g, '-');
-}
+// function convertToSlug(text) {
+//    return text
+//        .toLowerCase()
+//        .replace(/[^\w ]+/g, '')
+//        .replace(/ +/g, '-');
+//}
 
 function parallaxBackground() {
     $('.parallax').each(function() {
