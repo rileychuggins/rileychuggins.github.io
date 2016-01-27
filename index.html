@@ -256,9 +256,15 @@
 											</div>
 										</div>
 									</div>
+                  <div class="form-section">
+                    <input type="text" name="_replyto" placeholder="Your email" />
+                  </div>
 									<div class="form-section">
 										<input type="text" name="song" placeholder="Any Song Requests?">
-									</div>
+                    <input class="hidden" type="hidden" name="_next" value="//site.io/thanks.html" />
+                    <input class="hidden" type="hidden" name="_subject" value="A Wedding RSVP!" />
+                    <input class="hidden" type="text" name="_gotcha" style="display:none" />
+                  </div>
 									<input type="submit" value="RSVP">
 									<div class="form-error">
 										<span>Please fill out all fields</span>
