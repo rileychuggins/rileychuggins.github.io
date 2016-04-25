@@ -239,7 +239,7 @@
 						<div class="col-sm-12 text-center">
 							<h1>Say you'll be there</h1>
 							<p>
-								Please let us know if you can make it by<br> August 1st at the latest, cheers!
+								Please let us know if you can make it by<br> August 10th at the latest, cheers!
 							</p>
 						</div>
 					</div>
@@ -249,18 +249,25 @@
 							<div class="form-wrapper">
 								<form class="form-email" action="http://formspree.io/spicyhugswedding@gmail.com" method="POST">
 									<div class="form-section">
-							                    <input type="text" name="RSVP" placeholder="Can't Wait or Can't Come" />
-						                  	</div>
-						                  	<div class="form-section">
-							                    <input type="text" name="Number Attending" placeholder="Number Attending (include yourself)" />
-						                  	</div>
-						                  	<div class="form-section">
-							                    <input type="text" name="_replyto" placeholder="Your email" />
-						                  	</div>
+										<input type="text" name="name" class="validate-required" placeholder="Your Name / Names">
+										<div class="radio-group">
+											<div class="radio-holder btn checked">
+												<span>Can't Wait</span>
+												<input type="radio" name="rsvp" value="attending">
+											</div>
+											<div class="radio-holder btn">
+												<span>Can't Come</span>
+												<input type="radio" name="rsvp" value="not-attending">
+											</div>
+										</div>
+									</div>
+                  <div class="form-section">
+                    <input type="text" name="_replyto" placeholder="Your email" />
+                  </div>
 									<div class="form-section">
 										<input type="text" name="song" placeholder="Any Song Requests?">
                     <input class="hidden" type="hidden" name="_next" value="//spicer.wedding/thanks.html" />
-                    <input class="hidden" type="hidden" name="_subject" value="Wedding RSVP" />
+                    <input class="hidden" type="hidden" name="_subject" value="A Wedding RSVP!" />
                     <input class="hidden" type="text" name="_gotcha" style="display:none" />
                   </div>
 									<input type="submit" value="RSVP">
@@ -287,7 +294,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h6>© Copyright 2016 Riley Huggins (Soon to be Spicer) - All Rights Reserved</h6>
+							<h6>© Copyright 2015 Riley Huggins (Soon to be Spicer) - All Rights Reserved</h6>
 						</div>
 					</div>
 				</div>
