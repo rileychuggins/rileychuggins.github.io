@@ -789,7 +789,7 @@ nav.light.scrolled .line-3 {
 .story-2.randa h6{
   color: #222;
 }
-.story-2.randa btn .inner-link {
+.story-2.randa btn.inner-link {
   border: 1px solid #222;
   color: #222;
 }
