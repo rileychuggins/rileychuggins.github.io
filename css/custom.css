@@ -352,7 +352,7 @@ a:active {
 }
 /*!---------- COLOURS ----------*/
 .bg-secondary {
-  background: #fcfcfc;
+  background: #f9f9f9;
 }
 /*!---------- COVERED BACKGROUNDS ----------*/
 .background-image-holder {
@@ -782,6 +782,16 @@ nav.light.scrolled .line-3 {
 .story-2 h6 {
   color: #a3bfd3;
   margin-bottom: 30px;
+}
+.story-2.randa {
+  padding: 90px 0;
+}
+.story-2.randa h6{
+  color: #222;
+}
+.story-2.randa btn .inner-link {
+  border: 1px solid #222;
+  color: #222;
 }
 @media all and (max-width: 1024px) {
   .story-2 img {
@@ -1354,7 +1364,7 @@ input[type="submit"]:focus {
 .rsvp-2 .form-wrapper {
   width: 475px;
   margin: 0 auto;
-  background: #fcfcfc;
+  background: #f9f9f9;
   padding: 60px 0;
 }
 .rsvp-2 .form-section {
