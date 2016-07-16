@@ -51,6 +51,7 @@
     .auto-clear .col-xs-6:nth-child(odd){clear:left;}
 }
 
+
 body {
   background: #eee;
   -webkit-backface-visibility: hidden;
@@ -1167,6 +1168,10 @@ nav.light.scrolled .line-3 {
 }
 .accom-2 .feature {
   margin-bottom: 60px;
+}
+.accom-2 .auto-clear .feature {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .accom-2 h2 {
   margin-bottom: 60px;
