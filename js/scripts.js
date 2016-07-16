@@ -143,8 +143,8 @@ $(document).ready(function() {
     // Instagram Feed
 
     jQuery.fn.spectragram.accessData = {
-        accessToken: '4202867.1677ed0.61cc39bb649b48cdb125dd12c753455d',
-        clientID: 'f77c89daee224a1fbc3cadde3a47d909'
+        accessToken: '1406933036.fedaafa.feec3d50f5194ce5b705a1f11a107e0b',
+        clientID: 'fedaafacf224447e8aef74872d3820a1'
     };
 
     $('.instafeed').each(function() {
