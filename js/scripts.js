@@ -143,7 +143,7 @@ $(document).ready(function() {
     // Instagram Feed
 
     jQuery.fn.spectragram.accessData = {
-        accessToken: '4202867.f77c89d.401b6d3f64124170bb061d6eabc97372',
+        accessToken: '4202867.1677ed0.61cc39bb649b48cdb125dd12c753455d',
         clientID: 'f77c89daee224a1fbc3cadde3a47d909'
     };
 
@@ -154,7 +154,7 @@ $(document).ready(function() {
     });
 
     // Contact form code
-    // 4202867.1677ed0.61cc39bb649b48cdb125dd12c753455d
+    // 4202867.f77c89d.401b6d3f64124170bb061d6eabc97372
 
 //    $('form.form-email').submit(function(e) {
 
